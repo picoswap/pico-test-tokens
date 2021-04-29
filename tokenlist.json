@@ -1,0 +1,52 @@
+{
+  "name": "Picoswap Official",
+  "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/compound-interface.svg",
+  "keywords": [
+    "edgeware",
+    "pico",
+    "picoswap"
+  ],
+  "timestamp": "2021-04-20T12:00:00.000+00:00",
+  "tokens": [
+    {
+      "chainId": 2021,
+      "address": "0x8eB9ca241Beb1CcBDE549224D0C448766DeAe2D2",
+      "name": "",
+      "symbol": "SERRANO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+    },
+    {
+      "chainId": 2021,
+      "address": "0xdDA9f98cc82Dbb2Afd4EE0dE824F7dAEdC64b9ff",
+      "name": "",
+      "symbol": "JALAPENO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+    },
+    {
+      "chainId": 2021,
+      "address": "0xdFC90230a21CA7ef7800933fe9E72d7D654Bd110",
+      "name": "",
+      "symbol": "HABANERO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+    },
+    {
+      "chainId": 2021,
+      "address": "0x7c8526e2368ba32603693270179C7A70740F0FaD",
+      "name": "",
+      "symbol": "SHISHITO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+    },
+    {
+      "chainId": 2021,
+      "address": "0x34f46aDcE97dA79E5f139eCF929ff4539956ece8",
+      "name": "",
+      "symbol": "POBLANO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/asset_ZRX.svg"
+    }
+  ]
+}
