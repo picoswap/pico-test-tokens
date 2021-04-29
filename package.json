@@ -1,7 +1,4 @@
 {
-  "name": "@picoswap/test-tokens",
-  "version": "0.1.0",
-  "main": "tokenlist.json",
   "devDependencies": {
     "@openzeppelin/contracts": "^2.5.0",
     "truffle": "^5.0.5"
