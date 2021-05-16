@@ -3,11 +3,11 @@ const path = require("path");
 // Configure Chains
 exports.Chains = {
   // Ganache
-  development: {
-    name: "development",
+  ganache: {
+    name: "ganache",
     rpc: "http://localhost:9933",
-    chainId: 2021,
-    account: process.env.PICO_DEVELOPMENT,
+    chainId: 1337,
+    account: process.env.PICO_GANACHE,
   },
   // Local (Edgeware Local Node)
   local: {
@@ -44,8 +44,9 @@ exports.Chains = {
 // Points to hardhat compiled contracts
 const CONTRACT_PATH = path.join(__dirname, "/artifacts/contracts");
 exports.ContractABIs = {
-  UniswapV2Factory: require(CONTRACT_PATH +
-    "/uniswapv2/UniswapV2Factory.sol/UniswapV2Factory.json"),
-  UniswapV2Router02: require(CONTRACT_PATH +
-    "/uniswapv2/UniswapV2Router02.sol/UniswapV2Router02.json"),
+  Habanero: require(CONTRACT_PATH + "/Habanero.sol/Habanero.json"),
+  Jalapeno: require(CONTRACT_PATH + "/Jalapeno.sol/Jalapeno.json"),
+  Poblano: require(CONTRACT_PATH + "/Poblano.sol/Poblano.json"),
+  Serrano: require(CONTRACT_PATH + "/Serrano.sol/Serrano.json"),
+  Shishito: require(CONTRACT_PATH + "/Shishito.sol/Shishito.json"),
 };
