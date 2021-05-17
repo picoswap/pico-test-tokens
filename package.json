@@ -9,6 +9,7 @@
 
     "deploy:development": "node deploy/deploy_peppers.js --network development",
     "deploy:local": "node deploy/deploy_peppers.js --network local",
+    "deploy:rinkeby": "node deploy/deploy_peppers.js --network rinkeby",
     "deploy:beresheet": "node deploy/deploy_peppers.js --network beresheet",
     "deploy:edgeware": "node deploy/deploy_peppers.js --network edgeware"    
   },  
