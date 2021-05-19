@@ -18,9 +18,10 @@ These are tokens deployed to Rinkeby & Beresheet used for testing purposes.
 | Rinkeby | POBLANO   | 0x64D517f4031d69F704B308e4034CE1D559F93489 |
 
 ### Compile
-`yarn compile`
+- `yarn`
+- `yarn compile`
 
 ### Deploy
-
+- `yarn deploy:local`
 - `yarn deploy:rinkeby`
 - `yarn deploy:beresheet`

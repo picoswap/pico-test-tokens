@@ -14,9 +14,10 @@ exports.Chains = {
     name: "local",
     rpc: "http://localhost:9933",
     chainId: 2021,
-    account: process.env.PICO_LOCAL,
+    account: '1111111111111111111111111111111111111111111111111111111111111111',
+    // account: process.env.PICO_LOCAL,
   },
-  // Rinkeby 
+  // Rinkeby
   rinkeby: {
     name: 'rinkeby',
     rpc: 'https://rinkeby.infura.io/v3/' + process.env.PICO_INFURA,
