@@ -1,18 +1,17 @@
 {
   "name": "@picoswap/pico-test-tokens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Picoswap test ERC20 tokens",
   "author": "Commonwealth Labs",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "compile": "npx hardhat compile --force",
-
     "deploy:development": "node deploy/deploy_peppers.js --network development",
     "deploy:local": "node deploy/deploy_peppers.js --network local",
     "deploy:rinkeby": "node deploy/deploy_peppers.js --network rinkeby",
     "deploy:beresheet": "node deploy/deploy_peppers.js --network beresheet",
-    "deploy:edgeware": "node deploy/deploy_peppers.js --network edgeware"    
-  },  
+    "deploy:edgeware": "node deploy/deploy_peppers.js --network edgeware"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@openzeppelin/contracts": "^2.5.0",
