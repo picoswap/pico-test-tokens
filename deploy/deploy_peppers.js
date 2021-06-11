@@ -49,15 +49,15 @@ async function deploy_core(network) {
     deployerWallet
   );
 
-  const serrano = await Serrano.deploy(1000);
+  const serrano = await Serrano.deploy('1000000000000000000');
   await serrano.deployed();
-  const jalapeno = await Jalapeno.deploy(1000 * 1000);
+  const jalapeno = await Jalapeno.deploy('1000000000000000000');
   await jalapeno.deployed();
-  const habanero = await Habanero.deploy(1000 * 1000 * 1000);
+  const habanero = await Habanero.deploy('1000000000000000000');
   await habanero.deployed();
-  const shishito = await Shishito.deploy(1000 * 1000 * 1000 * 1000);
+  const shishito = await Shishito.deploy('1000000000000000000');
   await shishito.deployed();
-  const poblano = await Poblano.deploy(1000 * 1000 * 1000 * 1000 * 1000);
+  const poblano = await Poblano.deploy('1000000000000000000');
   await poblano.deployed();
 
   console.log("Serrano address:              ", serrano.address);
