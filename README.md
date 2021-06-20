@@ -1,21 +1,15 @@
 # Pico test tokens
 
-These are tokens deployed to Rinkeby & Beresheet used for testing purposes.
+These are tokens deployed for testing Picoswap.
 
 ### Contract Addresses
 | Chain     | Token     | Address   |
 | --------- | --------- | --------- |
-| Beresheet | SERRANO   | 0xf83148cc489f7CA102D2F44A943eCE4DC2953C73 |
-| Beresheet | JALAPENO  | 0x4679064F1740ab564ce39473c824572d2Fea26A2 |
-| Beresheet | HABANERO  | 0xCAd71203E80D3fAa4b48c34Ec0cD113A04148ee6 |
-| Beresheet | SHISHITO  | 0x25CB1a7d342A5F1FC5f170b31Bfb22b5505e67A3 |
-| Beresheet | POBLANO   | 0x4f396293F489dd8B344F1fDA416D39Cf728fb389 |
-| - | -   | - |
-| Rinkeby | SERRANO   | 0x1D3fF79C06C077287C83288a1Eed89Eb09F6c46e |
-| Rinkeby | JALAPENO  | 0xa119BcC290d8E58fe68a8aBDFB0CF7f5dAC993dF |
-| Rinkeby | HABANERO  | 0xA54B5D62d5E79BDc484df9458f74dF2d6A5674c7 |
-| Rinkeby | SHISHITO  | 0xa4a01c3B216AFFBF354323feb42b623A27d348Fa |
-| Rinkeby | POBLANO   | 0x64D517f4031d69F704B308e4034CE1D559F93489 |
+| Beresheet | SERRANO   | 0x2966175d7aa4b73B32c9764D09855f07758ebcA0 |
+| Beresheet | JALAPENO  | 0x6ABdf44534bC54E958B77eF300833862db4688B9 |
+| Beresheet | HABANERO  | 0xCF9e91360943b4394Ac171fceD99Dfd925918cA0 |
+| Beresheet | SHISHITO  | 0xb720B5d136acfF3d5D3d08D510CEeB34fA32658d |
+| Beresheet | POBLANO   | 0xB45adB28AF110D1dEA11B8b1E8C4c36D9F822D2d |
 
 ### Compile
 - `yarn`
@@ -23,5 +17,4 @@ These are tokens deployed to Rinkeby & Beresheet used for testing purposes.
 
 ### Deploy
 - `yarn deploy:local`
-- `yarn deploy:rinkeby`
-- `yarn deploy:beresheet`
+- `PICO_BERESHEET=<private key> yarn deploy:beresheet`

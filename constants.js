@@ -17,20 +17,11 @@ exports.Chains = {
     account: '1111111111111111111111111111111111111111111111111111111111111111',
     // account: process.env.PICO_LOCAL,
   },
-  // Rinkeby
-  rinkeby: {
-    name: 'rinkeby',
-    rpc: 'https://rinkeby.infura.io/v3/' + process.env.PICO_INFURA,
-    chainId: 4,
-    account: process.env.PICO_RINKEBY,
-    wedgAddress: undefined,
-    factoryAddress: undefined
-  },
   // Beresheet (Edgeware Testnet)
   beresheet: {
     name: "beresheet",
     rpc: "http://beresheet1.edgewa.re:9933",
-    chainId: 2021,
+    chainId: 2022,
     account: process.env.PICO_BERESHEET,
   },
   // Edgeware
