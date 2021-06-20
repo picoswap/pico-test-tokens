@@ -1,6 +1,6 @@
 {
   "name": "@picoswap/pico-test-tokens",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Picoswap test ERC20 tokens",
   "author": "Commonwealth Labs",
   "license": "GPL-3.0-or-later",
